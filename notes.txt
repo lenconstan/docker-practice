@@ -1,0 +1,27 @@
+############ https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care ################
+
+
+docker-compose -d
+
+asked Docker Compose to build and start the containers described in docker-compose.yml;
+the -d option indicates that we want to run the containers in the background and get our terminal back.
+
+docker-compose ps
+
+shows which containers are currently running
+
+docker-compose stop
+
+stops the running containers
+
+
+
+
+
+*****MYSQL CREDENTIALS WILL BE DISPLAYED IN DOCKER LOGS OF MYSQL CONTAINER******
+DEFAULT:
+    MySQL_USER : "mysql"
+
+    MySQL PASSWORD : "123456"
+
+    MySQL_DATABASE : "demo"
